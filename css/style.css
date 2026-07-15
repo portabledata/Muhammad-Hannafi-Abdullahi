@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#004aad;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:white;
+    color:#004aad;
+}
+
+.menu-btn{
+    display:none;
+    background:white;
+    color:#004aad;
+    border:none;
+    padding:10px;
+    margin:10px auto;
+    cursor:pointer;
+    font-size:18px;
+    border-radius:5px;
+}
+
+.hero{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    border:5px solid #004aad;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+.hero h2{
+    color:#004aad;
+    margin-bottom:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#004aad;
+    color:white;
+    padding:12px 20px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.btn:hover{
+    background:#003080;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.container h2{
+    color:#004aad;
+    margin-bottom:20px;
+}
+
+footer{
+    background:#004aad;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+
+video,
+audio,
+iframe{
+    width:100%;
+    max-width:700px;
+    margin:20px auto;
+    display:block;
+    border-radius:10px;
+}
+
+@media (max-width:768px){
+
+.menu-btn{
+display:block;
+}
+
+nav{
+display:none;
+flex-direction:column;
+}
+
+nav.show{
+display:flex;
+}
+
+nav a{
+padding:12px;
+border-top:1px solid rgba(255,255,255,.3);
+}
+
+      }
