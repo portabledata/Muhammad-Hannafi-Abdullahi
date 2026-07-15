@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multimedia</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>Multimedia</h1>
+
+<button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+
+<nav id="menu">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="education.html">Education</a>
+<a href="skills.html">Skills</a>
+<a href="services.html">Services</a>
+<a href="projects.html">Projects</a>
+<a href="gallery.html">Gallery</a>
+<a href="resume.html">Resume</a>
+<a href="contact.html">Contact</a>
+<a href="faq.html">FAQ</a>
+<a href="multimedia.html">Multimedia</a>
+</nav>
+
+</header>
+
+<section class="container">
+
+<h2>HTML5 Video</h2>
+
+<video width="100%" controls>
+<source src="videos/myvideo.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<hr><br>
+
+<h2>HTML5 Audio</h2>
+
+<audio controls>
+<source src="audio/myaudio.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+<hr><br>
+
+<h2>YouTube Video</h2>
+
+<iframe
+width="100%"
+height="400"
+src="https://www.youtube.com/embed/ysz5S6PUM-U"
+title="YouTube video"
+frameborder="0"
+allowfullscreen>
+</iframe>
+
+<hr><br>
+
+<h2>Google Maps</h2>
+
+<iframe
+src="https://www.google.com/maps?q=Northwest%20University%20Kano&output=embed"
+width="100%"
+height="400"
+style="border:0;"
+allowfullscreen=""
+loading="lazy">
+</iframe>
+
+<hr><br>
+
+<h2>Embedded Website (Iframe)</h2>
+
+<iframe
+src="https://www.wikipedia.org"
+width="100%"
+height="500"
+title="Wikipedia">
+</iframe>
+
+</section>
+
+<footer>
+<p>&copy; 2026 Muhammad Hannafi Abdullahi. All Rights Reserved.</p>
+</footer>
+
+<script>
+function toggleMenu(){
+document.getElementById("menu").classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
