@@ -37,17 +37,12 @@
 
 <div class="gallery">
 
-<img src="images/profile.jpg" alt="Profile">
-
-<img src="images/pic1.jpg" alt="Gallery Image 1">
-
-<img src="images/pic2.jpg" alt="Gallery Image 2">
-
-<img src="images/pic3.jpg" alt="Gallery Image 3">
-
-<img src="images/pic4.jpg" alt="Gallery Image 4">
-
-<img src="images/pic5.jpg" alt="Gallery Image 5">
+<img src="images/Images.jpg" alt="Profile Picture">
+<img src="images/Images.jpg" alt="Gallery Image">
+<img src="images/Images.jpg" alt="Gallery Image">
+<img src="images/Images.jpg" alt="Gallery Image">
+<img src="images/Images.jpg" alt="Gallery Image">
+<img src="images/Images.jpg" alt="Gallery Image">
 
 </div>
 
@@ -58,8 +53,8 @@
 </footer>
 
 <script>
-function toggleMenu(){
-document.getElementById("menu").classList.toggle("show");
+function toggleMenu() {
+    document.getElementById("menu").classList.toggle("show");
 }
 </script>
 
